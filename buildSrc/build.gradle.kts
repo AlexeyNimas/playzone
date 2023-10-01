@@ -13,6 +13,8 @@ dependencies {
     implementation(Deps.Kotlin.gradlePlugin)
     implementation(Deps.Compose.gradlePlugin)
     implementation(Deps.Android.gradlePlugin)
+    implementation(Deps.Kotlin.Serialization.gradlePlugin)
+    implementation(Deps.SqlDelight.gradlePlugin)
 }
 
 kotlin {
